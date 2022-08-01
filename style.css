@@ -1,0 +1,908 @@
+*{
+    font-family: Barlow, sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 2rem;
+}
+
+.header {
+    padding-top: 5em;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 2;
+}
+
+.header-background-default {
+    background: none;
+}
+
+.header-background-color {
+    background: rgba(115, 20, 128, 0.774);
+}
+
+.header .container {
+    width: 70%;
+}
+
+.anasayfa-ust {
+    background: linear-gradient(#560061,rgb(152, 73, 204));
+    color: white;
+}
+
+.navbar-logo {
+    display: inline;
+}
+
+.navbar-logo img {
+    position: relative;
+    bottom: 1.6rem;
+}
+
+.home{
+    padding:0 !important;
+}
+
+.home li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.link  a {
+    color: white;
+}
+
+.home li a {
+    position: relative;
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.lang-selection {
+    display: inline;
+    margin: 1rem;;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+
+.dilSec {
+    font-size: 1.6rem;
+}
+
+.dilSec ul li a {
+    text-align: left;
+    margin-left: 0;
+}
+
+.dilSec ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.hvr-underline-from-left:before {
+    background: white !important;
+}
+
+.dilSec ul li {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.dilSec:hover ul{
+    display: block;
+}
+
+.dilSec ul li a {
+    font-size: 1.6rem;
+}
+
+.dilSec ul li a:hover {
+    color: midnightblue !important;
+}
+.teklif-al-button {
+    display: inline;
+    margin: 1rem;;
+    position: relative;
+}
+
+.teklif-al-button a {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(115, 20, 128);
+}
+
+.adamimg {
+    width: 15% !important;
+}
+
+.sliderimg {
+    width: 40% !important;
+}
+
+.slider-background{
+   
+    left: 46%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.sliderdisdiv{
+    position: absolute;
+    top: 40%;
+    color:#fff;
+}
+
+
+.mobileimg{
+    width: 35% !important;
+}
+
+.slider-content-background {
+    position: absolute;
+    margin-left: -22rem;
+    margin-top: -4rem;
+    width: 40%;
+    left: 50%;
+    z-index: 1;
+}
+
+.item-yazi h1 {
+    font-size: 3.4rem;
+    margin-left: 21rem;
+}
+
+.item-yazi h2 {
+    font-size: 3rem;
+    margin-left: 21rem;
+}
+
+.item-yazi p {
+    font-size: 1.4rem !important;
+    margin-left: 21rem;
+}
+
+.owl-stage-outer {
+    height: 100vh;
+}
+
+.slider-web-img {
+    position: absolute;
+    right: 0;
+}
+
+.yazilim-grid {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-flow: wrap;
+    position: relative;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.yazilim-grid-item {
+    width: 22rem;
+    height: 22rem;
+    position: relative;
+    border-radius: 0.8rem;
+    margin: 3.75em;
+    border: 1px solid rgb(115, 20, 128);
+    text-align: center;
+}
+
+.yazilim-grid-item:hover {
+    background-color: rgba(152, 73, 204, 0.514);
+    transition: all 0.2s;
+}
+
+.web-yazilim-image {
+    width: 10%;
+    align-items: center;
+}
+
+.yazilim-title a b {
+    font-size: 1.4rem;
+    color: rgb(115, 20, 128);
+    padding: 1.2rem;
+}
+
+.yazilim-image {
+    max-width: 8.7rem;
+    margin-bottom: 5rem;
+    margin-top: 3.5rem;
+}
+
+.kurumsal-tasarim-img {
+    width: 100%;
+    height: 10%;
+    z-index: 0;
+}
+
+.kurumsal-tasarim {
+    background-image: url(elit-creative-project/kurumsal-web-tasarim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 14em 0;
+}
+
+.web-tasarim-img {
+    width: 100%;
+    box-shadow: 17px 11px 83px 5px rgba(0,0,0,0.75);
+}
+
+.web-tasarim-img-container, .kurumsal-tasarim-yazi {
+    width: 47rem;
+    margin: 0 8em;
+}
+
+.kurumsal-tasarim h1 b {
+    color:rgb(115, 20, 128);
+    padding-bottom: 2rem;
+}
+
+.kurumsal-tasarim p {
+    font-size: 1.6rem;
+    padding-bottom: 9rem;
+    padding-top: 5rem;
+}
+
+.kurumsal-button-container button {
+    border-radius: 0.9rem;
+    background-color: rgb(115, 20, 128);
+    padding: 0.6rem 3em;
+    margin-right: 1.37em;
+    color: white;
+    font-size: 1.6rem;
+    border: rgb(115, 20, 128);
+}
+
+.kurumsal-button-container button:hover {
+    background-color: rgba(115, 20, 128, 0.753);
+    transition: all 0.2s;
+}
+
+.teklif-al-btn {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    border-radius: 0.9rem;
+}
+
+.teklif-al-btn:hover {
+    background-color: rgba(108, 7, 122, 0.541);
+    transition: all 0.2s;
+}
+
+.kurumsal-tasarim-yazi {
+    line-height: 1.8;
+}
+
+.yuselise-gecin {
+    background-image: url(yukselise-gecin-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 14em 0;
+}
+
+.yukselise-gecin-yazi h1 b {
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.yukselise-gecin-yazi p {
+    font-size: 1.6rem;
+    padding-bottom: 9rem;
+    padding-top: 5rem;
+    color: white;
+}
+.elit-logo-img {
+    float: right;
+    margin-top: 9rem;
+    width: 55%;
+}
+
+.yukselise-gecin-yazi {
+    line-height: 1.9;
+}
+
+.yukselise-gecin-button-container button {
+    border-radius: 0.9rem;
+    background-color: rgb(115, 20, 128);
+    padding: 0.6rem 3em;
+    margin-right: 1.37em;
+    color: white;
+    font-size: 1.6rem;
+    border: rgb(115, 20, 128);
+}
+
+.yukselise-gecin-button-container button:hover {
+    background-color: rgba(115, 20, 128, 0.753);
+    transition: all 0.2s;
+}
+
+.elit-logo-img-container, .yukselise-gecin-yazi {
+    width: 49.3rem;
+    margin: 0 6em;
+}
+
+.bellini-home-img {
+    float: left;
+    width: 30%;
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+}
+
+.bellini-home h2 b {
+    color:rgb(115, 20, 128);
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1.6rem 3rem;
+}
+
+.bellini-home p {
+    font-size: 1.4rem;
+    display: inline-block;
+    padding-left: 3rem;
+}
+
+.bellini-home {
+    border: 1px solid rgb(115, 20, 128);
+    display: inline-block;
+    border-radius: 0.9rem;
+}
+
+.projeye-git-button-container button {
+    padding: 0.6rem 3em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    color: white;
+    background-color: rgb(115, 20, 128);
+    border-radius: 0.9rem;
+    border: none;
+    font-size: 1.15rem;
+    float: right;
+}
+
+.projeye-git-button-container button:hover {
+    background-color: rgba(115, 20, 128, 0.753);
+    transition: all 0.2s;
+}
+
+.pandomim-danismanlik {
+    border: 1px solid rgb(115, 20, 128);
+    display: inline-block;
+    border-radius: 0.9rem;
+}
+
+.pandomim-danismanlik h2 b {
+    color:rgb(115, 20, 128);
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1.6rem 3rem;
+}
+
+.pandomim-danismanlik p {
+    font-size: 1.4rem;
+    display: inline-block;
+    padding-left: 3rem;
+}
+
+.pandomim-danismanlik-img {
+    float: left;
+    width: 30%;
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+}
+
+.pandomim-danismanlik-button-container button {
+    padding: 0.6rem 3em;
+    margin-right: 1.37em;
+    color: white;
+    background-color: rgb(115, 20, 128);
+    border-radius: 0.9rem;
+    border: none;
+    font-size: 1.15rem;
+    margin-left: 32rem;
+}
+
+.search-logo {
+    font-size: 2em;
+    color: #fff;
+    position: relative;
+    transform: rotateY(180deg); 
+    top: 4px;
+}
+
+.search-logo:hover {
+    color: #ccc;
+    transition: all 0.2s;
+}
+
+.atma-paylas {
+    border: 1px solid rgb(115, 20, 128);
+    display: inline-block;
+    border-radius: 0.9rem;
+}
+
+.atma-paylas h2 b {
+    color:rgb(115, 20, 128);
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1.6rem 3rem;
+}
+
+.atma-paylas p {
+    font-size: 1.4rem;
+    display: inline-block;
+    padding-left: 3rem;
+}
+
+.atma-paylas-img {
+    float: left;
+    width: 30%;
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+}
+
+.atma-paylas-button-container button {
+    padding: 0.6rem 3em;
+    margin-right: 1.37em;
+    color: white;
+    background-color: rgb(115, 20, 128);
+    border-radius: 0.9rem;
+    border: none;
+    font-size: 1.15rem;
+    margin-left: 10rem;
+}
+
+.selfie-cekmece {
+    border: 1px solid rgb(115, 20, 128);
+    display: inline-block;
+    border-radius: 0.9rem;
+}
+
+.selfie-cekmece h2 b {
+    color:rgb(115, 20, 128);
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1.6rem 3rem;
+}
+
+.selfie-cekmece p {
+    font-size: 1.4rem;
+    display: inline-block;
+    padding-left: 3rem;
+}
+
+.selfie-cekmece-img {
+    float: left;
+    width: 30%;
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+}
+
+.selfie-cekmece-button-container button {
+    padding: 0.6rem 3em;
+    margin-right: 1.37em;
+    color: white;
+    background-color: rgb(115, 20, 128);
+    border-radius: 0.9rem;
+    border: none;
+    font-size: 1.15rem;
+    margin-left: 32rem;
+}
+
+.baslik {
+    text-align: center;
+    color:rgb(115, 20, 128);
+}
+
+.baslik h1 {
+    margin-bottom: 1rem;
+}
+
+.projelerimiz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5em auto;
+    flex-direction: column;
+    width: 70%;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects-container .project-item {
+    width: 40%;
+    margin: 3em;
+}
+
+.referanslarimiz button {
+    border-radius: 0.9rem;
+    background-color: rgb(115, 20, 128);
+    padding: 0.6rem 3em;
+    margin-right: 1.37em;
+    color: white;
+    font-size: 1.6rem;
+    border: rgb(115, 20, 128);
+    margin: 0 auto;
+}
+
+.referanslarimiz {
+    padding-top: 1.5rem
+}
+
+.referanslarimiz button:hover {
+    background-color: rgba(115, 20, 128, 0.753);
+    transition: all 0.2s;
+}
+
+.blog-slider-item .item {
+    margin: 3em;
+}
+
+.blog-slider-item h2 b {
+    color:rgb(115, 20, 128);
+}
+
+.blog-slider-item h2 {
+    margin-top: 2rem;
+}
+
+.blog-slider-item p {
+    font-size: 1.4rem;
+}
+
+.blog-slider-item {
+    border: 1px solid rgb(115, 20, 128);
+    border-radius: 0.9rem;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.blog-slider {
+    width: 1000px;
+}
+
+.blog-slider .owl-stage-outer {
+    height: 100%
+}
+
+.owl-stage-outer {
+    margin-bottom: 3rem;
+}
+
+.blog-baslik {
+    color:rgb(115, 20, 128);
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.mobil-uygulama-gri {
+    background-image: url(mobil-uygulama-gri.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 14em 0;
+}
+
+.mobil-uygulama-yazi h1 b {
+    color: rgb(115, 20, 128);
+    padding-bottom: 2rem;
+    white-space: nowrap;
+}
+
+.mobil-uygulama-yazi p {
+    font-size: 1.6rem;
+    padding-bottom: 9rem;
+    padding-top: 5rem;
+}
+
+.mobil-uygulama-img-container {
+    border-radius: 0.9rem;
+    background-color: rgb(115, 20, 128);
+    padding: 0.6rem 3em;
+    margin-right: 1.37em;
+    color: white;
+    font-size: 1.6rem;
+    border: rgb(115, 20, 128);
+}
+
+.mobil-uygulama-button-container button {
+    border-radius: 0.9rem;
+    background-color: rgb(115, 20, 128);
+    padding: 0.6rem 3em;
+    margin-right: 1.37em;
+    color: white;
+    font-size: 1.6rem;
+    border: rgb(115, 20, 128);
+}
+
+.mobil-uygulama-button-container button:hover {
+    background-color: rgba(115, 20, 128, 0.753);
+    transition: all 0.2s;
+}
+
+.mobil-uygulama-gri-img {
+    width: 150%;
+    margin-left: -12rem;
+}
+
+.mobil-uygulama-gri-img-container {
+    margin-right: 40rem;
+}
+
+.mobil-uygulama-yazi {
+    width: 47rem;
+    margin: 0px 40em;
+    line-height: 2.9rem;
+}
+
+.yazilim-logolari {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.yazilim-logolari .logo-item img {
+    width: 75px;
+    margin: 0 5em;
+}
+
+.anaslider .item{
+    height: 100vh;
+    padding: 0 0;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+    position: absolute;
+    background-repeat: no-repeat !important;
+}
+
+.blog-slider-item:hover {
+    background-color: rgb(165, 40, 182);
+    opacity: 60;
+    transition: all 0.2s;
+    color: white;
+
+
+}
+
+.blog-slider-item:hover b {
+    color: white;
+    transition: all 0.2s;
+}
+
+.owl-stage-outer {
+    z-index: -1;
+}
+
+.owl-dots {
+    z-index: 1;
+    margin-top: -6rem;
+}
+
+.footerm {
+    background-image: url(footer-background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-form-container {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.footer-form-container a {
+    margin: 0 !important;
+}
+
+.footer-form-container input {
+    padding: 2.1rem !important;
+    border-radius: 0;
+    margin: 0 !important;
+    border: none;
+    outline: none;
+}
+
+.icon-container {
+    color: white;
+}
+
+.footer-middle-container {
+    justify-content: center;
+    margin-top: 2em;
+    padding: 0 1.5em;
+}
+
+.footer-top-container,
+.footer-bottom-container {
+    width: 67%;
+    margin: 0 auto !important;
+} 
+
+.footer-bottom-container {
+    padding-bottom: 6rem;
+}
+
+.footer-link h5 {
+    color: white;
+    font-size: 1.8rem;
+    border-bottom: solid 4px  rgba(173, 162, 162, 0.459);
+    display: inline-block;
+}
+
+.footer-link p {
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 1.3rem;
+}
+
+.footer-link a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    margin-top: 1.3rem;
+}
+
+.footer-link a:hover {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.form-row .form-control {
+    padding: 2rem;
+    width: 90%;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: rgb(54, 2, 61) !important; 
+    border: 3px solid rgb(54, 2, 61);
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    border: 3px solid rgb(172, 170, 170);
+    background-color: rgb(172, 170, 170);
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: rgba(187, 117, 228, 0.87) !important;
+    transition: all 0.2s;
+}
+
+
+.footericerik {
+    padding: 6rem;
+}
+
+.slider-adam-img {
+    margin-top: 55rem;
+}
+
+.slider-adam2-img {
+    margin-top: 55rem;
+    width: 93%;
+}
+
+.icon-container {
+    padding-left: 4rem;
+}
+
+.owl-prev {
+    position: absolute;
+    left: 25px;
+    font-size: 25px !important;
+    border-style: solid !important;
+    width: 60px !important;
+    border-radius: 50% !important;
+    padding-left: 19px !important;
+    padding-right: 25px !important;
+    height: 60px;
+    color:white!important;
+    top: 50%;
+}
+
+.owl-next {
+    position: absolute;
+    right: 25px;
+    font-size: 25px !important;
+    border-style: solid !important;
+    width: 60px !important;
+    border-radius: 50% !important;
+    padding-left: 19px !important;
+    padding-right: 25px !important;
+    height: 60px;
+    color:white !important;
+    top: 50%;
+}
+
+.owl-prev span {
+    color: white;
+}
+
+.owl-prev span:hover {
+    color:rgb(54, 2, 61);
+}
+
+.owl-next span {
+    color: white;
+}
+
+.owl-next:hover {
+    background-color: none !important;
+}
+
+.yazilim-grid-item a:hover {
+    text-decoration: none;
+}
+
+.icon-social-media {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.social-media-icons a {
+    display: inline-block !important;
+}
+
+.icon-social-media:hover {
+    color: midnightblue !important;
+}
+
+.gonder-buton {
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    background: #fff;
+    font-size: 2.2rem;
+    padding: 1rem;
+}
+
+.gonder-buton:hover {
+    color: rgb(115, 20, 128);
+}
+
+
